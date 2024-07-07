@@ -1,0 +1,420 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: #5584B0;
+    border-bottom: 1px solid #ddd;
+    height: 60px; 
+}
+
+.header img {
+    margin-left: 8rem;
+    width: 200px;
+    height: 60px;
+}
+.header img:hover{
+    cursor: pointer;
+    filter: drop-shadow(0 0 10px rgba(0, 0, 0, .4));
+}
+
+.nav {
+    display: flex;
+    gap: 15px;
+    margin-left: 20px;
+}
+
+
+.nav a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+    padding: 10px 15px; /* Ajustar padding para mantener la altura */
+    transition: background-color 0.3s ease;
+    height: 100%; /* Asegurar que el enlace ocupe toda la altura del header */
+    display: flex;
+    align-items: center; /* Centrar el contenido verticalmente */
+    height: 3.8rem;
+  }
+#icon{
+    margin-top: 1rem;
+    height: 2rem;
+    width: 1.3rem;
+    color: white;
+    border-radius: 50px;
+    background: linear-gradient(145deg, #85b15e, #a5d779);
+    padding: 5px;
+    box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.2),
+                inset -3px -3px 5px rgba(255, 255, 255, 0.2),
+                inset 3px 3px 5px rgba(0, 0, 0, 0.2);
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-container {
+    position: relative;
+    margin-right: 20px; /* Ajusta el margen derecho según necesites */
+}
+
+.search-icon {
+    position: absolute;
+    top: 50%;
+    left: 10px; /* Ajusta la posición izquierda según necesites */
+    transform: translateY(-50%);
+}
+
+.search-icon i {
+    font-size: 16px; /* Tamaño del ícono */
+    color: #888; /* Color del ícono */
+}
+
+.search-container input {
+    padding: 5px 10px;
+    border: 1px solid #ddd;
+    outline: none;
+}
+
+.search-container input::placeholder {
+    font-style: italic;
+    color: #888;
+}
+
+.upload-btn {
+    display: flex;
+    align-items: center;
+    background-color: #40719C;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+.upload-btn:hover {
+    display: flex;
+    align-items: center;
+    background-color: #396992;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-right: 20px;
+}
+
+.upload-btn .icon {
+    margin-left: 5px;
+    font-weight: bold;
+}
+
+.account-dropdown {
+    position: relative;
+}
+
+.account-btn {
+    background-color: #5584B0;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    right: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdown-content a:hover {
+    background-color: #f1f1f1;
+}
+
+.account-dropdown:hover .dropdown-content {
+    display: block;
+}
+
+#inicio:hover, #perfil:hover, #mensajes:hover, #gente:hover, #videos:hover, #juegos:hover, #sitios:hover {
+    background-color: #40719C;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.columna {
+    background-color: #e0e0e0;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+ 
+
+.columna.centro {
+    width: 50%;
+}
+
+.columna.derecha {
+    width: 20%;
+}
+
+.perfil img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+.perfil img:hover {
+    cursor: pointer;
+}
+.perfil h2 {
+    margin-bottom: 10px;
+}
+
+.perfil ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+.perfil p {
+    margin-top: 20px;
+}
+
+.invitaciones {
+    list-style-type: none;
+    padding: 0;
+}
+
+.invitaciones li {
+    margin-bottom: 5px;
+}
+
+.estado input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+h2{
+    color: #5584B0;
+}
+.novedades {
+    margin-top: 20px;
+    
+}
+ul, a{
+    color: #749E49;
+    font-weight: bold;
+    text-decoration: none;
+}
+.lista li {
+    margin-bottom: 8px; /* Ajusta el margen inferior según sea necesario */
+}
+.enviar{
+    background-color: #396992;
+    color: #ffffff;
+    border-radius: 5px;
+}
+.novedades h2 {
+    margin-bottom: 10px;
+}
+#visits{
+    color: #5584B0 ;
+}
+.novedades button {
+    margin-right: 10px;
+}
+
+.compartido img {
+    width: 100%;
+    margin-top: 10px;
+}
+
+.compartido h3 {
+    margin-top: 10px;
+}
+
+.agregar-amigos hr {
+    margin: 10px 0;
+}
+
+.agregar-amigos p {
+    margin-top: 10px;
+}
+
+.agregar-amigos button {
+    background-color: orange;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+}
+
+.agregar-amigos button .fa-search {
+    margin-right: 5px;
+}
+
+.chat button {
+    background-color: green;
+    color: white;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+}
+
+.lista-amigos {
+    margin-top: 20px;
+}
+
+.lista-amigos input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+}
+
+.lista-amigos select {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
+.perfil img{
+    border-radius: 0;
+    
+}
+.input-container {
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.input-container i {
+    position: absolute;
+    left: 10px; /* Ajusta la posición izquierda del icono */
+    color: #ccc; /* Color del icono */
+}
+
+.input-container input {
+    padding-left: 30px; /* Ajusta el espacio a la izquierda del input */
+    border-top-left-radius: 50px; /* Borde redondeado superior izquierdo */
+    border-bottom-left-radius: 8px; /* Borde redondeado inferior izquierdo */
+    border: 2px solid #ccc; /* Borde del input */
+    outline: none;
+    height: 40px; /* Altura del input */
+    font-size: 20px; /* Tamaño de la fuente */
+}
+
+.input-container input::placeholder {
+    color: #ccc; /* Color del texto del placeholder */
+}
+
+.input-container input:focus {
+    border-color: #007bff; /* Color del borde al enfocar */
+}
+.save{
+    font-size: larger;
+    border-radius: 3px;
+    background-color: #396992;
+    color: white;
+    margin-left: 50rem;
+}
+.links{
+    margin-left: 45rem;
+}
+
+#si{
+    background-color: #5584B0;
+    border-radius: 3px;
+    color: white;
+}
+.nombre-usuario {
+    color: #396992; /* Cambia el color del nombre de usuario según tu preferencia */
+    font-weight: bold; /* Opcional: Aplica negrita al nombre de usuario */
+}
+.pregunta{
+    color: grey;
+}
+
+#online{
+    color: #749E49;
+    margin-right: 30rem;
+}
+.chat {
+    display: flex; /* Utiliza flexbox para alinear elementos en una fila */
+    align-items: center; /* Alinea verticalmente los elementos al centro */
+}
+
+#online {
+    color: green; /* Color verde para el círculo */
+    margin-right: 10px; /* Espacio a la derecha del círculo */
+}
+
+.chat-text {
+    margin-right: 10px; /* Espacio a la derecha del texto "Chat (37)" */
+}
+
+.fa-gear {
+    margin-left: auto; /* Empuja el icono de ajustes hacia la derecha */
+    margin-right: 5px; /* Espacio a la derecha del icono de ajustes */
+}
+.lista-amigos {
+    position: relative;
+    width: 200px; /* Ancho del contenedor ajustable según sea necesario */
+}
+
+.lista-amigos input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.lista-nombres {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    max-height: 200px; /* Altura máxima de la lista */
+    overflow-y: auto; /* Habilita el desplazamiento vertical */
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.lista-nombres li {
+    padding: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+
+.lista-nombres li:hover {
+    background-color: #f1f1f1; /* Color de fondo al hacer hover */
+}
+#usersChat{
+    color: #85b15e;
+}

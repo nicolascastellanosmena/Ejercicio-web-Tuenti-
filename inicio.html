@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio</title>
+    <link href="./estilos.css" rel="stylesheet">
+    <link rel="icon" href="./lal.png" type="image/png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
+        integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
+    <header class="header">
+        <a href="./index.html"><img src="./lol.png" alt="sample"></a>
+        
+        <nav class="nav">
+            <a id="inicio" href="#">Inicio</a>
+            <a id="perfil" href="#">Perfil</a>
+            <a id="mensajes" href="#">Mensajes</a><i id="icon" class="fa-solid fa-user"></i>
+            <a id="gente" href="#">Gente</a>
+            <a id="videos" href="#">Videos</a>
+            <a id="juegos" href="#">Juegos</a>
+            <a id="sitios" href="#">Sitios</a>
+        </nav>
+        <div class="search-container">
+            <span class="search-icon"><i class="fa-solid fa-search"></i></span>
+            <input type="text" placeholder="      Buscar...">
+        </div>
+        
+        <button class="upload-btn">Subir Fotosㅤ<i class="fa-solid fa-upload"></i></i></button>
+        <div class="account-dropdown">
+            <button class="account-btn">Mi cuenta <i class="fa-solid fa-caret-down"></i></button>
+            <div class="dropdown-content">
+                <a href="#">Perfil</a>
+                <a href="#">Configuración</a>
+                <a href="./index.html">Cerrar sesión</a>
+            </div>
+        </div>
+    </header>
+    <div class="container">
+        <div class="columna izquierda">
+            <div class="perfil">
+                <img src="./me.jpeg" alt="sample">
+                <i id="visits" class="fa-solid fa-chart-simple"></i><strong> 20 visitas a tu perfil</strong>
+                <h2>Nicolás Castellanos Mena</h2>
+                <ul class="lista">
+                    <li><a href=""> <i class="fa-solid fa-envelope"></i> 8 mensajes privados</a></li>
+                    <li><a href=""> <i class="fa-solid fa-comment"></i> 1 estado con comentarios</a></li>
+                    <li><a href=""> <i class="fa-solid fa-comment"></i> 25 comentarios</a></li>
+                    <li><a href=""> <i class="fa-regular fa-calendar"></i> 16 invitaciones a eventos</a></li>
+                    <li><a href=""> <i class="fa-solid fa-tag"></i> 12 etiquetas</a></li>
+                    <li><a href=""> <i class="fa-solid fa-users"></i> 2 invitaciones a páginas</a></li>
+                </ul>
+                <h3>Invita a tus amigos</h3>
+                <hr>
+                </ul>
+                <input type="text" placeholder="E-mail">
+                <button class="enviar">Invitar</button>
+                <h3>Eventos patrocinados</h3>
+                <hr>
+                <strong>No hay eventos disponibles en estos momentos.</strong>
+            </div>
+        </div>
+        <div class="columna centro">
+            <div class="estado">
+                <div class="input-container">
+                    <i class="fa-solid fa-pencil-alt"></i>
+                    <input type="text" placeholder=" Actualiza tu estado">
+                </div>
+                <p><strong>Última actualización:</strong> Voy a al cine a ver a 3 metros sobre el cielo ¿Quién se viene?
+                </p>
+                <button class="save">Guardar</button>
+            </div>
+            <div class="novedades">
+                <h2>Novedades</h2>
+                <div class="links">
+                    <button id="si">Amigos</button>
+                    <button id="si">Páginas</button>
+                    <button id="si">Sitios</button>
+                </div>
+                <div class="compartido">
+                    <h3><span class="nombre-usuario">Mariano Delgado</span> ha compartido una foto:</h3>
+                    <img src="./mariano.jpg" alt="sample" style="width: 400px; height: 400px;">
+                </div>
+
+            </div>
+        </div>
+
+        <div class="columna derecha">
+            <div class="agregar-amigos">
+                <h2>Añadir amigos</h2>
+                <hr>
+                <p class="pregunta">¿Amigos en Hotmail Gmail o Yahoo?</p>
+                <button class="buscar-amigos"><i class="fa-solid fa-search"></i> Buscar amigos</button>
+            </div>
+            <div class="chat">
+                <i id="online" class="fa-solid fa-circle"></i>
+                <p class="chat-text">Chat (37)</p>
+                <i class="fa-solid fa-gear"></i>
+                <p>Ajustes</p>
+            </div>
+
+            <div class="lista-amigos">
+                <input type="text" placeholder="Buscar amigos">
+                <ul id="usersChat" class="lista-nombres">
+                    <li>Mariano Delgado</li>
+                    <li>Juan Pérez</li>
+                    <li>Luis Rodríguez</li>
+                    <li>Ana Martínez</li>
+                    <li>Pablo López</li>
+                    <li>Sofía Sánchez</li>
+                    <li>Jorge González</li>
+                    <li>Carolina Ramírez</li>
+                    <li>Andrés Fernández</li>
+                    <li>Laura Díaz</li>
+                    <li>Diego Ruiz</li>
+                    <li>Elena Castro</li>
+                    <li>Francisco Morales</li>
+                    <li>Isabel Gómez</li>
+                    <li>Ricardo Herrera</li>
+                    <li>Adriana Jiménez</li>
+                    <li>Óscar Pérez</li>
+                    <li>Natalia Torres</li>
+                    <li>Miguel Ruiz</li>
+                    <li>Verónica López</li>
+                    <li>Rafaela Martín</li>
+                    <li>Esteban Soto</li>
+                    <li>Valeria Navarro</li>
+                    <li>Roberto Medina</li>
+                    <li>Clara Vargas</li>
+                    <li>Javier Mendoza</li>
+                    <li>Diana Ortega</li>
+                    <li>Fernando Santos</li>
+                    <li>Paola Ríos</li>
+                    <li>Lorenzo García</li>
+                    <li>Camila Flores</li>
+                    <li>Guillermo Salazar</li>
+                    <li>Marta Pérez</li>
+                    <li>Lucas Castillo</li>
+                    <li>Silvia Ruiz</li>
+                    <li>Manuel Herrera</li>
+                    <li>Ana María Gutiérrez</li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+</html>
